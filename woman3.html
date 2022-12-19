@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                * {
+    font-size: large;
+    box-sizing: border-box;
+    font-family: 'Kangbujang', cursive;
+}
+        @font-face {
+    font-family: 'Kangbujang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_06@1.0/Kangbujang.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+        hr
+        {
+           background-color: navy;
+           height: 25px;
+        }
+
+        ul{
+            list-style:none;
+             padding-left:0px;
+          }
+
+       
+        #name
+        {
+            text-align: center;
+        }
+        h2
+        {   display: inline-block;
+            background-color: aquamarine;
+        }
+        a {
+        color : black;
+        text-decoration: none;
+        }
+        #title
+        {   
+            height: 40px;
+            background-color: lightskyblue;
+            
+        }
+
+        #main_nav{
+            margin-right: 20px;
+            font-size: small;
+            width: 14%; 
+            display: sticky;
+            float: left;
+            background-color: gainsboro;
+            color: black;
+        }
+
+
+        #main_nav ul{
+            position: sticky;
+            top: 0;
+        }
+
+        #li_menu{
+            font-weight: 900;
+            height: 60px;
+            line-height: 60px;
+            text-align: center; 
+            margin: 10px 0;
+            background-color: red;
+            /* border-bottom: 1px solid rgba(0, 0, 0, 0.555); */
+        }
+
+        #main_nav ul li:not(#li_menu){
+        
+            font-weight: 600;
+            padding-left: 20px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        #main_nav ul:last-child{
+            margin-bottom: 50px;
+        }
+
+        #main_nav ul a{
+            display: block;
+        }
+
+        #main_nav ul a:hover{
+            background-color: gray;
+            font-weight: 800;
+        }
+
+        #main_nav a{
+            color: black;
+            text-decoration: none;
+        }
+
+        p
+        {
+            text-align: center;
+            font-size: small;
+        }
+
+        #who
+    {
+        text-align: right;
+    }
+
+        #main_contents{
+           
+            text-align: center;
+        }
+        table {
+            border: 3px double black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td{
+            border: 3px solid black;   
+        }
+        #num {
+            list-style: disc;
+        }
+        #page{
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="name">
+            <h2><a href=Start.html>위기에 처한 당신을 위한 번호</a></h2>
+        </div>
+        <div id="who">
+            사회공헌 LeadingClass 3조 전화해조
+        </div>
+        <hr>
+
+        <div id="title">
+            <h3>여성 - <small>여성 인권</small></h3>
+        </div>
+
+        <nav id = "main_nav">
+            <ul>
+                <li id="li_menu"><a href="woman.html">여성</a></li>
+                <a href="woman1.html"><li>가정 폭력</li></a>
+                <a href="woman2.html"><li>성폭력ㆍ성매매</li></a>
+                <a href="woman3.html"><li>여성 인권</li></a>
+                <a href="woman4.html"><li>여성 일자리 상담</li></a>
+                <a href="woman5.html"><li>성 상담</li></a>
+            </ul>
+        </nav>
+        <p>
+            <b>여성 폭력</b><br>
+            젠더에 기반한 폭력행위 내지 그러한 행위를 하겠다는 협박, 강제, 임의적인 자유의 박탈로서<br>
+            그로 인해 공사 모든 영역에서 여성에게 신체적, 성적, 심리적 침해나 괴로움을 줄 수 있는 행위
+        </p>
+        
+        <p>
+            <b>여성 보호의 중요성</b><br>
+            성별과 관련한 우리 사회의 구조적인 모순, 즉 남성에 비해 가족 내에서나 사회적으로<br>
+            그 지위가 열악한 편인 여성의 권익증진과 인권을 보호할 필요가 있다.<br>
+            단순히 여성학대가 없어지는 것에서 멈추지 않고, 이들의 자립심과 독림심을 키워 세상을 살아갈 힘을 보태줄 필요가 있다.
+        </p>
+        <br>
+        <h3 style="text-align: center;">여성 인권</h3>
+        <br>
+        <div id="content" >
+        
+            <table>
+                <tr>
+                    <td><img src="./img/여성인권.png" width="400px"></td>
+                    <td>
+                        전화번호
+                        <ol id="num">
+                            <li>02-2263-6464</li>
+                    
+                        </ol>
+                        기관ㆍ센터ㆍ쉼터
+                        <ol id="page">
+                            <a href="http://www.hotline.or.kr/" target="_blank"><li>한국 여성의 전화</li></a>
+                            <a href="https://wom-survivors.or.kr/" target="_blank"><li>여성 인권 지원센터 살림</li></a>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>

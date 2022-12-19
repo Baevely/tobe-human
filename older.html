@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                   * {
+    
+    font-size:large;
+font-family: 'Kangbujang', cursive;
+}
+@font-face {
+font-family: 'Kangbujang';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_06@1.0/Kangbujang.woff') format('woff');
+font-weight: bolder;
+
+
+}
+
+        hr
+        {
+           background-color: navy;
+           height: 25px;
+        }
+
+        ul{
+            list-style:none;
+             padding-left:0px;
+          }
+
+       
+        #name
+        {
+            text-align: center;
+        }
+        h2
+        {   display: inline-block;
+            background-color: aquamarine;
+        }
+        a {
+        color : black;
+        text-decoration: none;
+        }
+        #title
+        {   
+            height: 40px;
+            background-color: lightskyblue;
+            
+        }
+
+        #main_nav{
+            margin-right: 20px;
+            font-size: small;
+            width: 16%; 
+            display: sticky;
+            float: left;
+            background-color: gainsboro;
+            color: black;
+        }
+
+
+        #main_nav ul{
+            position: sticky;
+            top: 0;
+        }
+
+        #li_menu{
+            font-weight: 900;
+            height: 60px;
+            line-height: 60px;
+            text-align: center; 
+            margin: 10px 0;
+            background-color: red;
+            /* border-bottom: 1px solid rgba(0, 0, 0, 0.555); */
+        }
+
+        #main_nav ul li:not(#li_menu){
+        
+            font-weight: 600;
+            padding-left: 20px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        #main_nav ul:last-child{
+            margin-bottom: 50px;
+        }
+
+        #main_nav ul a{
+            display: block;
+        }
+
+        #main_nav ul a:hover{
+            background-color: gray;
+            font-weight: 800;
+        }
+
+        #main_nav a{
+            color: black;
+            text-decoration: none;
+        }
+
+        p
+        {
+            text-align: center;
+            font-size: small;
+        }
+
+        #who
+    {
+        text-align: right;
+    }
+    dl
+    {
+        text-align: center;
+    }
+   
+
+    dt{
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    dd{
+        
+        font-size: small;
+    }
+
+    .flex-container 
+        {
+        display: flex;
+        justify-content:center;
+         }
+
+         .line {
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        border: black solid 1px;
+        border-radius: 20px;
+    }
+    a {
+        color : black;
+        text-decoration: none;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="name">
+            <h2><a href=Start.html>위기에 처한 당신을 위한 번호</a></h2>
+        </div>
+        <div id="who">
+            사회공헌 LeadingClass 3조 전화해조
+        </div>
+        <hr>
+
+        <div id="title">
+            <h3>노인</h3>
+        </div>
+
+        <nav id = "main_nav">
+            <ul>
+                <li id="li_menu"><a href="older.html">노인</a></li>
+                <a href="older1.html"><li>노인 주거 및 의료 복지시설</li></a>
+                <a href="older2.html"><li>노인 인권보호</li></a>
+                <a href="older3.html"><li>노인 일자리 상담</li></a>
+            </ul>
+        </nav>
+        <p>
+            <b>노인</b><br>
+            65세 이상으로, 고령이나 노인성 질병 등 일상생활을 혼자 하기에 어려움이 있는 사람
+        </p>
+        <p>
+            <b>노인학대</b><br>
+            노인에 대하여 신체적ㆍ정신적ㆍ정서적ㆍ성적 폭력 및 경제적 착취 또는 가혹행위를 하거나 유기 또는 방임하는 것
+        </p>
+        
+        <p>
+            <b>노인 보호의 중요성</b><br>
+            노인학대 현황 보고서에 따르면 노인학대 신고 현황은 매년 증가하는 추세이며, 전체 노인 중 학대를 경험한 노인은 13%이다.<br>
+            노인의 존엄성이 보호되고 노인 스스로 존엄성을 지킬 수 있고 안전하게 살 수 있으며,<br>
+            노인을 착취와 학대의 대상으로 남겨두지 않는 것이 우리의 역할이다.
+        </p>
+        <br>
+        <p>
+            <b>어떤 문제들이 있는가 ?</b>
+            <br>
+             <div class = "flex-container">
+                <div class = "line" style="background-color: #9fc5e8;"><a href = "older1.html"><b>노인 주거 및 의료 복지시설</b></a></div>
+                <div class = "line" style="background-color: #7db4e6;"><a href = "older2.html"><b>노인 인권보호</b></a></div>
+                <div class = "line" style="background-color: #4f9ee8;"><a href = "older3.html"><b>노인 일자리 상담</b></a></div>
+            </div>
+            
+        </p>
+       
+    </div>
+</body>
+</html>

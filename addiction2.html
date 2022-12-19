@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                * {
+    font-size: large;
+    box-sizing: border-box;
+    font-family: 'Kangbujang', cursive;
+}
+        @font-face {
+    font-family: 'Kangbujang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_06@1.0/Kangbujang.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+        hr
+        {
+           background-color: navy;
+           height: 25px;
+        }
+
+        ul{
+            list-style:none;
+             padding-left:0px;
+          }
+
+       
+        #name
+        {
+            text-align: center;
+        }
+        h2
+        {   display: inline-block;
+            background-color: aquamarine;
+        }
+        a {
+        color : black;
+        text-decoration: none;
+        }
+        #title
+        {   
+            height: 40px;
+            background-color: lightskyblue;
+            
+        }
+
+        #main_nav{
+            margin-right: 20px;
+            font-size: small;
+            width: 14%; 
+            display: sticky;
+            float: left;
+            background-color: gainsboro;
+            color: black;
+        }
+
+
+        #main_nav ul{
+            position: sticky;
+            top: 0;
+        }
+
+        #li_menu{
+            font-weight: 900;
+            height: 60px;
+            line-height: 60px;
+            text-align: center; 
+            margin: 10px 0;
+            background-color: red;
+            /* border-bottom: 1px solid rgba(0, 0, 0, 0.555); */
+        }
+
+        #main_nav ul li:not(#li_menu){
+        
+            font-weight: 600;
+            padding-left: 20px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        #main_nav ul:last-child{
+            margin-bottom: 50px;
+        }
+
+        #main_nav ul a{
+            display: block;
+        }
+
+        #main_nav ul a:hover{
+            background-color: gray;
+            font-weight: 800;
+        }
+
+        #main_nav a{
+            color: black;
+            text-decoration: none;
+        }
+
+        p
+        {
+            text-align: center;
+            font-size: small;
+        }
+
+        #who
+    {
+        text-align: right;
+    }
+
+        #main_contents{
+           
+            text-align: center;
+        }
+        table {
+            border: 3px double black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td{
+            border: 3px solid black;   
+        }
+        #num {
+            list-style: disc;
+        }
+        #page{
+            list-style-type: disc;
+        }
+
+    </style>
+<head>
+<body>
+    <div id="wrapper">
+        <div id="name">
+            <h2><a href=Start.html>위기에 처한 당신을 위한 번호</a></h2>
+        </div>
+        <div id="who">
+            사회공헌 LeadingClass 3조 전화해조
+        </div>
+        <hr>
+
+        <div id="title">
+            <h3>중독 - <small>금연 상담</small></h3>
+        </div>
+
+        <nav id = "main_nav">
+            <ul>
+                <li id="li_menu"><a href="addiction.html">중독</a></li>
+                <a href="addiction1.html"><li>인터넷ㆍ스마트폰 중독</li></a>
+                <a href="addiction2.html"><li>금연 상담</li></a>
+                <a href="addiction3.html"><li>마약ㆍ약물 중독 상담</li></a>
+                <a href="addiction4.html"><li>도박 중독</li></a>
+                <a href="addiction5.html"><li>암 예방 및 검진 안내</li></a>
+                <a href="addiction6.html"><li>에이즈 예방 및 검진 안내</li></a>
+            </ul>
+        </nav>
+        <p>
+            <b>질병</b><br>
+            몸의 온갖 병
+        </p>
+        <p>
+            <b>중독</b><br>
+            독으로 지칭되는 유해 물질에 의한 신체 증상인 중독(약물 중독)과 알코올,<br> 마약과 같은 약물 남용에 의한 정신적 중독이 주로 문제되는 중독(의존증)을 동시에 일컫음.
+        </p>
+        <p>
+            <b>질병ㆍ중독 신고의 중요성</b><br>
+            인간은 행복과 쾌락을 추구하며, 보다 더 나은 삶을 살기 위해 자신의 건강을 점검하게 된다. <br>일시적으로 행복을 추구하는 행동이 결국 불행의 결과를 가져올 수 있다. 따라서 예방하고 대비하는 것이 중요하다.
+        </p>
+        <br>
+        <h3 style="text-align: center;">금연 상담</h3>
+        <br>
+        <div id="content" >
+        
+            <table>
+                <tr>
+                    <td><img src="./img/금연.png " width="400px"></td>
+                    <td>
+                        전화번호
+                        <ol id="num">
+                            <li>1544-9030</li>
+                            <li>1811-9079</li>
+                            
+                        </ol>
+                        기관ㆍ센터ㆍ쉼터
+                        <ol id="page">
+                            <a href="https://www.nosmokeguide.go.kr/index.do" target="_blank"><li>금연 길라잡이</li></a>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+    </div>
+    </div>
+</body>
+</html>
